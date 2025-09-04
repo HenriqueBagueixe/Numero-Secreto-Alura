@@ -1,5 +1,5 @@
 let numerosSorteados = [];
-let valorMaximo = 4;
+let valorMaximo = 100;
 let numeroSecreto = numeroAleatorio();
 let tentativas = 1;
 console.log(numeroSecreto)
@@ -7,6 +7,7 @@ console.log(numeroSecreto)
 function textoNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 
 function exibirMensagemInicial(){
