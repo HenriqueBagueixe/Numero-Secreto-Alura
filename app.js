@@ -1,4 +1,4 @@
-let valorMaximo = 10;
+let valorMaximo = 100;
 let numeroSecreto = numeroAleatorio();
 let tentativas = 1;
 console.log(numeroSecreto)

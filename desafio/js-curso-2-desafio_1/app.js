@@ -1,4 +1,4 @@
-let numero = 46
+let numero = 8
 
 function fazerTabuada(numero){
     let numerosDaTabuada = 1
